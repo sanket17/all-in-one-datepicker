@@ -1,0 +1,19 @@
+{
+    "integrationFolder": "src/cypress/integration",
+    "videosFolder": "src/cypress/videos",
+    "screenshotsFolder": "src/cypress/screenshots",
+    "fixturesFolder": "src/cypress/fixtures",
+    "e2eFolder": "src/cypress/e2e",
+    "supportFile": "src/cypress/support/index.js",
+    "pluginsFile": "src/cypress/plugins/index.js",
+    "testFiles": "**/*.{spec,test}.{js,jsx,ts,tsx}",
+    "ignoreTestFiles": [],
+    "videoUploadOnFailures": false,
+    "videoPreserveOnPasses": false,
+    "viewportWidth": 1024,
+    "viewportHeight": 768,
+    "browserWindowWidth": 1024,
+    "browserWindowHeight": 768,
+    "experimentalSessionAndServerRecordings": true,
+    "baseUrl": "http://localhost:5173"
+}
